@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería de Terrenos en Ucú</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Kodchasan:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .galeria-pagina {
+      padding: 80px 20px 40px;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .galeria-pagina h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+
+    .galeria-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .galeria-item {
+      text-align: center;
+    }
+
+    .galeria-item img,
+    .galeria-item video {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      border: 2px solid var(--marron);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .galeria-item h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: var(--negro);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="https://wa.me/529994099752" target="_blank">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main class="galeria-pagina">
+    <h1>Galería del Proyecto</h1>
+
+    <div class="galeria-grid">
+      <div class="galeria-item">
+        <h3>Terrenos amplios de 10x50m en Ucú, Yucatán</h3>
+        <img src="https://github.com/CapAnd14/landing-terrenos-ucu/raw/main/terrreno%20muestra.jpeg" alt="Terreno amplio">
+      </div>
+
+      <div class="galeria-item">
+        <h3>Terrenos disponibles de 10x50 m listos para escriturar (propiedad privada)</h3>
+        <img src="https://github.com/CapAnd14/landing-terrenos-ucu/raw/main/promo%201%20y1.jpg" alt="Terrenos disponibles">
+      </div>
+
+      <div class="galeria-item">
+        <h3>Terreno personalizado por propietario: delimitado y listo para construcción</h3>
+        <img src="https://github.com/CapAnd14/landing-terrenos-ucu/raw/main/terreno%20due%C3%B1o.jpeg" alt="Terreno delimitado">
+      </div>
+
+      <div class="galeria-item">
+        <h3>Terrenos con calles blancas y propietarios construyendo</h3>
+        <img src="https://github.com/CapAnd14/landing-terrenos-ucu/raw/main/casas%20foto.JPG" alt="Terrenos construyendo">
+      </div>
+
+      <div class="galeria-item">
+        <h3>Tu próximo terreno de 10x50m: vista desde dron del lote muestra</h3>
+        <video controls>
+          <source src="https://github.com/CapAnd14/landing-terrenos-ucu/raw/refs/heads/main/V%C3%ADdeo%20sin%20t%C3%ADtulo.mp4" type="video/mp4">
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Ucú Terrenos. Todos los derechos reservados.</p>
+    <p>
+      <a href="https://drive.google.com/uc?id=1KnK4_0qDU7k0dcJdN2y4dDt3fIyMKaaX" target="_blank">Aviso de privacidad</a> |
+      <a href="https://www.facebook.com/Horizontemayainmuebles" target="_blank">🌐 Facebook</a> |
+      <a href="https://wa.me/529994099752" target="_blank">📱 Contacto por WhatsApp</a>
+    </p>
+  </footer>
+</body>
+</html>
